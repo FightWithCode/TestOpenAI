@@ -1,0 +1,17 @@
+# Session Authentication
+"""
+User gives uname, psswd -> session_id
+session_id -> gets stored in browser
+user's each request has session_id
+backend checks for session_id and validates user
+"""
+# JWT Authentication
+"""
+User gives uname, psswd -> JWT token(access token(short lived) + refresh token(long lived)) 
+with user's each request access_token is sent
+in backend verifies the access_token, if valid it gives access to the API/request
+if invalid -> uses refresh token to generate a new access token
+if refresh_token is invalid -> then user gives uname psswd again to gain new access and refresh token
+"""
+
+# endpoint/api/view - login
