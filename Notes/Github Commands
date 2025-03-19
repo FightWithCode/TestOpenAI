@@ -1,0 +1,29 @@
+# git init
+"""
+Initializes a Folder to consider as a Github repo folder
+"""
+
+# git add <file names or .>
+"""
+Adds files to be tracked. Can be given a single file or . to include all files.
+"""
+
+# git commit -m "<commit message>"
+"""
+Commits the files to the local repo
+"""
+
+# git remote add origin <url>
+"""
+Adds the remote repo url to the local repo
+"""
+
+# git push origin master
+"""
+Pushes the local repo to the remote repo
+"""
+
+# git pull origin master
+"""
+Pulls the remote repo to the local repo
+"""
