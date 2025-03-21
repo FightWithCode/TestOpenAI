@@ -1,0 +1,8 @@
+# Request methods: POST, PUT, GET, DELETE
+
+
+# POST - Create a new object/or entery in table
+# PUT - Update an existing resource
+# GET - Retrieve a record from database depeding on id or List records from databse
+# DELETE - delete a resource
+# POST method can also be used to retrieve data from database.
